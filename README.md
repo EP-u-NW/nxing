@@ -45,6 +45,7 @@ If this file is present and not empty, a client needs to authorize itselfe by se
 	
 ## Commands
 While the service is running, there are several commands that can be executed:
+
 | Command | Description                                                                                        |
 |---------|----------------------------------------------------------------------------------------------------|
 | help    | Gives an overview to the available commands.                                                       |
