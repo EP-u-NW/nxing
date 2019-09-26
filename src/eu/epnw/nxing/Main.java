@@ -95,7 +95,7 @@ public class Main {
 		} else {
 			System.out.println();
 		}
-		handleCommands(apiMapper, workDir);
+		handleCommands(apiMapper);
 		System.out.println("Shooting down...");
 		bootstrap.config().group().shutdownGracefully().syncUninterruptibly();
 		bootstrap.config().childGroup().shutdownGracefully().syncUninterruptibly();
@@ -129,7 +129,7 @@ public class Main {
 		}
 	}
 
-	private static void handleCommands(ApiMapper apiMapper, String workDir) throws IOException {
+	private static void handleCommands(ApiMapper apiMapper) throws IOException {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Waiting for commands");
 		while (in.hasNextLine()) {
