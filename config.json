@@ -1,0 +1,9 @@
+{
+	"port":7642,
+	"host":"0.0.0.0",
+	"debug":true,
+	"sslDir":null,
+	"useSsl":true,
+	"maxImageSize":2097152,
+}
+
